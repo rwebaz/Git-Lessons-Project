@@ -1,93 +1,79 @@
 ---
 title: Home Page
 layout: default
+excerpt: Git tags and Git statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-16-18
 navigation_weight: 1
+categories: template
 ---
-# Issue: Git Lesson Project Template
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
 
-{{ site.tagline }}
+# Git Lessons Project Home Page
 
-## State the issue of the problem in the form of a question
-
-How do you code this stuff?
-
-## Table O Contents
-
-![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-725-x-725.svg){:height="120px" width="120px"}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** `( .svg )` image file is set to the dimensions of 120.00px x 120.00px.
-
-- TOC
-{:toc}
+{% include toc.md %}
 
 ## Issue
 
-State the issue of the problem in the form of a question ...
+The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-## Solution
+Should it be, or should it not be?
 
-Expound the solution ...
+### The Socratic Method
 
-## The Code
+State the issue of the problem in the form of a question ie.) How do you code this stuff?
 
-Highlight the code ...
+## Rule
 
-## Summation
+The rule may be split into two components ...
+
+### Current Majority View
+
+What is the current view as expressed by the majority of federal districts and state courts based on the common law with reference to the UCC, 2nd Restatements, etc. et al?
+
+### The Minority View
+
+What is the minority view as expressed by the dissent?
+
+{% include analysis-code-live.md %}
+
+## Conclusion
+
+A concise conclusion wraps the argument ...
+
+### Summation
 
 Delineate the steps ...
 
-## Live
+### Solution
 
-Render the code live ...
+Expound the solution ...
 
-## Ping-back
+### Description
 
-- Live Link
+{{ site.description }}
 
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
+{% include raw-code-anchors.md %}
 
-- The Code
+## Import Code
 
-```liquid
-{% raw %}
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
-{% endraw %}
-```
+More to come ...
 
-## Raw Code
+## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
 
 ```liquid
 {% raw %}
-`...`
+Enjoy the successful output!
 {% endraw %}
 ```
 
-## Sources and Uses
-
-The source and use of 3rd party materials in the creation of this **Markdown** page is greatly appreciated.
-
-Most authors and publishers will allow for the abbreviated reproduction of their works in part when the case of brief quotations or ideas embodied in critical articles or reviews becomes necessary to further the understanding of the end-user's learning process.
-
-Indeed, ping-backs to the original sources are welcome by the readers, the authors, and the publishers of instructional hard copies.
-
-Therefore, it is the policy of the **[MMINAIL][3]** to always provide a **Ping Back** to the original author, or to the publisher of the original publication when citing 3rd party work.
-
-### Inline References
-
-1. [Inline Images](https://rwebaz.github.io/Markdown-Lessons-Project/pages/Inline-Images.html){:title="Click to Visit the Inline Images Page at GitHub"}{:target="_blank"}. Inline images may be displayed in Markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-1. [Markdown Lessons Project](https://rwebaz.github.io/Markdown-Lessons-Project/){:title="Click to Visit the Markdown Lesson Project Template - Home Page at GitHub"){:target="_blank"}. The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-1. [MMINAIL](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}. The MMINAIL is an acronym for the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include sources-and-uses.md %}
 
 ### External Sources
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon"}{:target="_blank"}.
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Git/Source-Git-Links.htm){:title="Click to Visit the Source Links page of the Git Lessons Project at GitHub pages"}{:target="_blank"} page of the Git Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
-- [How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/){:title="Click to Visit Jekyll RB"}{:target="_blank"}. Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:title="Click to Visit Jekyll RB"}{:target="_blank"}.
-
-- [Liquid Lessons Project Source Links](https://rwebaz.github.io/Liquid-Lessons-Project/pages/Source-Links.html){:title="Click to Visit the Source Links Page of the Liquid Lessons Project"}{:target="_blank"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-- [Next Link]
+**Note**. This page crafted with {{ page.version }}.

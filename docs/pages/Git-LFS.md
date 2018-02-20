@@ -1,16 +1,16 @@
 ---
 title: Text Template
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Page Template md Dtd 02-16-18
+navigation_weight: 8
+categories: template
 ---
-# Text Template
+# {{ page.title }}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+{{ page.excerpt }}
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc.md %}
 
 ## Git LFS
 
@@ -27,7 +27,6 @@ Before installing **Git LFS** update your development machine ports.
 sudo port selfupdate
 {% endraw %}
 ```
-
 
 The Terminal will prompt for a password to set up a secure session.
 
@@ -78,22 +77,32 @@ SVG files can get quite large.
 
 For example, an large icon file converted to ( .svg ) can weigh in at well over a megabyte **MB**.
 
-***
-
-## Raw Code
+## Import Code
 
 More to come ...
 
+## Last Subtitle
+
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
 ```liquid
 {% raw %}
-`...`
+Enjoy the successful output!
 {% endraw %}
 ```
 
-***
+{% include brackets-ide.md %}
 
-**Source**: [Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}.
+{% include sources-and-uses.md %}
+
+1. {:#BLANK}[The Blank Live at The Blank Festival, 2000](https://youtu.be/Blank){:title='Click to Watch the YouTube video of the Blank Live at the The Blank Festival, 2000'}{:target='_blank'}.
+
+### External Sources
+
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title='Click to Visit the Source Links page of the Shell Lessons Project at Concepts Library'}{:target='_blank'} page of the Shell Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
 
 **Source**: [Git LFS Training at GitHub Universe 2015 w Alan Smith](https://www.youtube.com/watch?v=l5SIbsy21jE){:target="_self"). Published by © 2015 [Githubuniverse.com](http://githubuniverse.com){:target="_blank"}.
 
-
+**Note**. This page crafted with {{ page.version }}.

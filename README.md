@@ -1,2 +1,3 @@
 # Git-Lessons-Project
-A Git Hub repo of Git Lessons
+
+A GitHub repo of Lessons and Articles that emphasize the Git engine
