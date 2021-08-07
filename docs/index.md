@@ -4,7 +4,7 @@ layout: default
 excerpt: Git tags and Git statements mimic underlying Javascript methods ...
 description_one: Issue, Rule, Analysis, Conclusion = IRAC
 repo: Git-Lessons-Project
-ver_date: 11-20-19
+ver_date: 08-07-21
 navigation_weight: 1
 categories: page
 ---
